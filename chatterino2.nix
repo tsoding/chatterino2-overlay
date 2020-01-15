@@ -2,12 +2,12 @@
 
 stdenv.mkDerivation rec {
   pname = "chatterino2";
-  version = "unstable-2019-11-14";
+  version = "unstable-2020-01-16";
   src = fetchFromGitHub {
     owner = "chatterino";
     repo = pname;
-    rev = "556c2aef2b2e70f08e1b54ff2be4c00dee6abb4f";
-    sha256 = "09lasf1y4rdzhb638pw6m0iw0kdn9b9pz495z15msgqidfzspv5x";
+    rev = "476825dc35c34e72729d07fa5661c53fd9db60d8";
+    sha256 = "12cxmkb833njnl0wxrnf9yqbsgvqrwfb4k8pfji8j7hjidijhqh6";
     fetchSubmodules = true;
   };
   nativeBuildInputs = [ qmake pkgconfig ];
